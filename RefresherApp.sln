@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.API", "RefresherApp.API\RefresherApp.API.csproj", "{2F8E462C-F323-428B-AC3D-C096AAB61450}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Infrastructure", "RefresherApp.Infrastructure\RefresherApp.Infrastructure.csproj", "{F54FC1AF-A69A-4524-A325-91B4AA753C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Domain", "RefresherApp.Domain", "{BB73A87B-A199-4775-99FD-E6FC1FB18E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{9F2244DE-CDCC-49FF-94CB-C7FCE7B06762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplesEntities", "ExamplesEntities\ExamplesEntities.csproj", "{AE7BAD18-A49B-4765-8143-4455531C36A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Shared", "RefresherApp.Shared", "{422305D0-B300-401F-B106-483A4347BE13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{6D352FAF-E78B-4DE2-8AE3-39E880A31AA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D21F9F75-6917-49BA-91DF-D015033AE032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Test", "RefresherApp.Test", "{5549A927-5432-4FF1-B972-51C700818BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTest", "Tests\ExampleTest\ExampleTest.csproj", "{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F8E462C-F323-428B-AC3D-C096AAB61450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8E462C-F323-428B-AC3D-C096AAB61450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8E462C-F323-428B-AC3D-C096AAB61450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8E462C-F323-428B-AC3D-C096AAB61450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54FC1AF-A69A-4524-A325-91B4AA753C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54FC1AF-A69A-4524-A325-91B4AA753C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54FC1AF-A69A-4524-A325-91B4AA753C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54FC1AF-A69A-4524-A325-91B4AA753C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7BAD18-A49B-4765-8143-4455531C36A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7BAD18-A49B-4765-8143-4455531C36A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7BAD18-A49B-4765-8143-4455531C36A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7BAD18-A49B-4765-8143-4455531C36A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F2244DE-CDCC-49FF-94CB-C7FCE7B06762} = {BB73A87B-A199-4775-99FD-E6FC1FB18E41}
+		{AE7BAD18-A49B-4765-8143-4455531C36A4} = {9F2244DE-CDCC-49FF-94CB-C7FCE7B06762}
+		{6D352FAF-E78B-4DE2-8AE3-39E880A31AA2} = {422305D0-B300-401F-B106-483A4347BE13}
+		{D21F9F75-6917-49BA-91DF-D015033AE032} = {422305D0-B300-401F-B106-483A4347BE13}
+		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5} = {5549A927-5432-4FF1-B972-51C700818BF8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A6A0BDE-8530-4B33-96B2-15C265A9EF02}
+	EndGlobalSection
+EndGlobal
