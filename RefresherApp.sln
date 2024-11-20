@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.API", "RefresherApp.API\RefresherApp.API.csproj", "{2F8E462C-F323-428B-AC3D-C096AAB61450}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F1FED3B-3493-40C3-8F58-7EF93564D6FF} = {9F1FED3B-3493-40C3-8F58-7EF93564D6FF}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Infrastructure", "RefresherApp.Infrastructure\RefresherApp.Infrastructure.csproj", "{F54FC1AF-A69A-4524-A325-91B4AA753C4C}"
 EndProject
@@ -11,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Domain", "Refr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{9F2244DE-CDCC-49FF-94CB-C7FCE7B06762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplesEntities", "ExamplesEntities\ExamplesEntities.csproj", "{AE7BAD18-A49B-4765-8143-4455531C36A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Entities.Examples", "ExamplesEntities\RefresherApp.Entities.Examples.csproj", "{AE7BAD18-A49B-4765-8143-4455531C36A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Shared", "RefresherApp.Shared", "{422305D0-B300-401F-B106-483A4347BE13}"
 EndProject
@@ -21,7 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D21F9F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Test", "RefresherApp.Test", "{5549A927-5432-4FF1-B972-51C700818BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleTest", "Tests\ExampleTest\ExampleTest.csproj", "{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Test.Examples", "Tests\ExampleTest\RefresherApp.Test.Examples.csproj", "{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Application", "RefresherApp.Application", "{FCDC6D85-6205-475A-8650-1DCB77DE9CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefresheApp.Application.Examples", "RefresherApp.Application\RefresherApp.Application.Examples\Application.Examples\RefresheApp.Application.Examples.csproj", "{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +52,10 @@ Global
 		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +66,7 @@ Global
 		{6D352FAF-E78B-4DE2-8AE3-39E880A31AA2} = {422305D0-B300-401F-B106-483A4347BE13}
 		{D21F9F75-6917-49BA-91DF-D015033AE032} = {422305D0-B300-401F-B106-483A4347BE13}
 		{DCD4DD8F-D305-48B9-A62E-0FC8A3DE86A5} = {5549A927-5432-4FF1-B972-51C700818BF8}
+		{9F1FED3B-3493-40C3-8F58-7EF93564D6FF} = {FCDC6D85-6205-475A-8650-1DCB77DE9CE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A6A0BDE-8530-4B33-96B2-15C265A9EF02}

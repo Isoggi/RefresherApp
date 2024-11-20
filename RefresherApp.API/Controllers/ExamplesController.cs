@@ -9,8 +9,8 @@ namespace RefresherApp.API.Controllers
     {
         public async Task<HttpResponseMessage> Get()
         {
-            var result = await 
-            return;
+            //var result = await 
+            return Ok();
         }
     }
 }

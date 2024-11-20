@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExamplesEntities\ExamplesEntities.csproj" />
+    <ProjectReference Include="..\ExamplesEntities\RefresherApp.Entities.Examples.csproj" />
   </ItemGroup>
 
 </Project>

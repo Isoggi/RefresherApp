@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace RefresherApp.Domain.Entities.ExamplesEntities
+namespace RefresherApp.Domain.Entities.Examples
 {
     public class Examples
     {
