@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Domain", "Refr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{9F2244DE-CDCC-49FF-94CB-C7FCE7B06762}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Entities.Examples", "ExamplesEntities\RefresherApp.Entities.Examples.csproj", "{AE7BAD18-A49B-4765-8143-4455531C36A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Domain.Entities.Examples", "ExamplesEntities\RefresherApp.Domain.Entities.Examples.csproj", "{AE7BAD18-A49B-4765-8143-4455531C36A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Shared", "RefresherApp.Shared", "{422305D0-B300-401F-B106-483A4347BE13}"
 EndProject
@@ -28,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefresherApp.Test.Examples"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefresherApp.Application", "RefresherApp.Application", "{FCDC6D85-6205-475A-8650-1DCB77DE9CE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefresheApp.Application.Examples", "RefresherApp.Application\RefresherApp.Application.Examples\Application.Examples\RefresheApp.Application.Examples.csproj", "{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefresherApp.Application.Examples", "RefresherApp.Application\RefresherApp.Application.Examples\Application.Examples\RefresherApp.Application.Examples.csproj", "{9F1FED3B-3493-40C3-8F58-7EF93564D6FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

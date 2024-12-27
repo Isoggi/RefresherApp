@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ExamplesEntities\RefresherApp.Entities.Examples.csproj" />
+    <ProjectReference Include="..\..\..\ExamplesEntities\RefresherApp.Domain.Entities.Examples.csproj" />
   </ItemGroup>
 
 </Project>

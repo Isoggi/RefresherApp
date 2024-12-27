@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExamplesEntities\RefresherApp.Entities.Examples.csproj" />
+    <ProjectReference Include="..\ExamplesEntities\RefresherApp.Domain.Entities.Examples.csproj" />
+    <ProjectReference Include="..\RefresherApp.Application\RefresherApp.Application.Examples\Application.Examples\RefresherApp.Application.Examples.csproj" />
   </ItemGroup>
 
 </Project>

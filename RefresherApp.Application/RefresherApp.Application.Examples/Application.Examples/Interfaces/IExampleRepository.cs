@@ -1,21 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using RefresherApp.
 
 namespace RefresherApp.Application.Examples.Interfaces
 {
     public interface IExampleRepository
     {
-        Task<ICollection<Examples>> GetAll();
+        Task<ICollection<Domain.Entities.Examples>> GetAll();
 
-        Task<Person> GetPersonById(int personId);
+        Task<Domain.Entities.Examples> GetExampleById(int personId);
 
-        Task<Person> AddPerson(Person toCreate);
+        Task<Domain.Entities.Examples> AddExample(Domain.Entities.Examples toCreate);
 
-        Task<Person> UpdatePerson(int personId, string name, string email);
+        Task<Domain.Entities.Examples> UpdatePerson(int personId, string name, string email);
 
         Task DeletePerson(int personId);
     }

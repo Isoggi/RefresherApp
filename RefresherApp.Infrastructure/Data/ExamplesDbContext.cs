@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RefresherApp.Domain.Entities.ExamplesEntities;
+using RefresherApp.Domain.Entities;
 
 namespace RefresherApp.Infrastructure.Data
 {
@@ -23,7 +23,7 @@ namespace RefresherApp.Infrastructure.Data
             builder.Entity<Examples>()
                 .Property(e => e.Name)
                 .HasColumnType("varchar(512)");
-            builder.Entity<Examples>().Property(e => e.Id.).HasColumnType("");
+            builder.Entity<Examples>().Property(e => e.Id).HasColumnType("int");
         }
     }
 }
