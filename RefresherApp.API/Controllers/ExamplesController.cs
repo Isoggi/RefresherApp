@@ -7,7 +7,7 @@ namespace RefresherApp.API.Controllers
     [ApiController]
     public class ExamplesController : ControllerBase
     {
-        public async Task<HttpResponseMessage> Get()
+        public async Task<IActionResult> Get()
         {
             //var result = await 
             return Ok();
