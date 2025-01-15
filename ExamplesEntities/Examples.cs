@@ -7,7 +7,8 @@ namespace RefresherApp.Domain.Entities
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
-        public int Id { get; set; }
+        public int KeyId { get; set; }
+        public Guid Id { get; set; }
         public string? Name { get; set; }
         public string Email { get; set; }
     }

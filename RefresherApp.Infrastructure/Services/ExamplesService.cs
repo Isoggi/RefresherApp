@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RefresherApp.Infrastructure.Services
 {
-    internal class ExamplesService
+    public class ExamplesService
     {
     }
 }
