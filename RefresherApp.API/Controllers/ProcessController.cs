@@ -7,5 +7,22 @@ namespace RefresherApp.API.Controllers
     [ApiController]
     public class ProcessController : ControllerBase
     {
+        [Route("")]
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            //var result = await 
+            return Ok();
+        }
+
+        [Route("/{id}")]
+        [HttpGet]
+        public async Task<IActionResult> GetById(string id)
+        {
+            //var result = await 
+            return Ok();
+        }
+
+
     }
 }

@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Behaviours\" />
     <Folder Include="Features\Examples\Validators\" />
-    <Folder Include="Features\Examples\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\ExamplesEntities\RefresherApp.Domain.Entities.Examples.csproj" />
+    <ProjectReference Include="..\..\..\RefresherApp.Shared.Examples\RefresherApp.Shared.Examples.csproj" />
   </ItemGroup>
 
 </Project>

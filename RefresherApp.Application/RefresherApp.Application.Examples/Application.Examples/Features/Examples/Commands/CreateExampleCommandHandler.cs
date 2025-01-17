@@ -1,9 +1,11 @@
 ﻿using MediatR;
 using RefresherApp.Application.Examples.Interfaces;
+using System.Runtime.CompilerServices;
 
+//[assembly: InternalsVisibleTo(“RefresherApp.Test”)]
 namespace RefresherApp.Application.Examples.Features.Examples.Commands
 {
-    public class CreateExampleCommandHandler : IRequestHandler<CreateExampleCommand,Guid>
+    public sealed class CreateExampleCommandHandler : IRequestHandler<CreateExampleCommand,Guid>
     {
         private readonly IExampleRepository _exampleRepository;
 

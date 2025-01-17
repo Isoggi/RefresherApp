@@ -7,12 +7,12 @@ namespace RefresherApp.Application.Examples.Interfaces
     {
         Task<ICollection<Domain.Entities.Examples>> GetAll();
 
-        Task<Domain.Entities.Examples> GetExampleById(int personId);
+        Task<Domain.Entities.Examples> GetExampleById(Guid exampleId);
 
         Task<Domain.Entities.Examples> AddExample(Domain.Entities.Examples toCreate);
 
-        Task<Domain.Entities.Examples> UpdatePerson(int personId, string name, string email);
+        Task<Domain.Entities.Examples> UpdateExample(int exampleId, string name, string email);
 
-        Task DeletePerson(int personId);
+        Task DeleteExample(int exampleId);
     }
 }

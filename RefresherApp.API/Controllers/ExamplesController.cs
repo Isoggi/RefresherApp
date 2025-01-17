@@ -7,6 +7,8 @@ namespace RefresherApp.API.Controllers
     [ApiController]
     public class ExamplesController : ControllerBase
     {
+        [Route("")]
+        [HttpGet]
         public async Task<IActionResult> Get()
         {
             //var result = await 

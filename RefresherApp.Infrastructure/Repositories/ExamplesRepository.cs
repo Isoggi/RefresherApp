@@ -16,7 +16,7 @@ namespace RefresherApp.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task DeletePerson(int personId)
+        public async Task DeleteExample(int personId)
         {
             throw new NotImplementedException();
         }
@@ -26,12 +26,12 @@ namespace RefresherApp.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<Examples> GetExampleById(int personId)
+        public async Task<Examples> GetExampleById(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<Examples> UpdatePerson(int personId, string name, string email)
+        public async Task<Examples> UpdateExample(int exampleId, string name, string email)
         {
             throw new NotImplementedException();
         }
