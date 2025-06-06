@@ -15,7 +15,7 @@ namespace RefresherApp.API.Controllers
         public async Task<IActionResult> Get()
         {
             //var result = await 
-            return Ok();
+            return await Task.FromResult(Ok());
         }
         
         [MapToApiVersion(1)]
@@ -24,7 +24,7 @@ namespace RefresherApp.API.Controllers
         public async Task<IActionResult> GetById(string id)
         {
             //var result = await 
-            return Ok();
+            return await Task.FromResult(Ok());
         }
 
 

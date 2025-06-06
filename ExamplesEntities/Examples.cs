@@ -9,7 +9,9 @@ namespace RefresherApp.Domain.Entities
         [Key]
         public int KeyId { get; set; }
         public Guid Id { get; set; }
-        public string? Name { get; set; }
+        [Required]
+        public string  Name { get; set; }
+        [Required]
         public string Email { get; set; }
     }
 }
